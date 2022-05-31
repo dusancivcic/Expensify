@@ -1,0 +1,18 @@
+.chart {
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #e9e9e9;
+    box-shadow:  3px 3px 6px #bebebe, 
+                 -3px -3px 6px #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+    transition: background .2s ease, box-shadow .2s ease;
+  }
+
+  .dark-mode .chart{
+    background: #1A1B1F;
+    box-shadow:  3px 3px 6px #101114, 
+                 -3px -3px 6px #24252a;
+}
